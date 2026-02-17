@@ -1,9 +1,5 @@
 # 📊 Mosook – AI-Driven Automated Reporting & Feasibility Platform
  
-## 🏢 Client Project Overview
-**Client:** Mohammad Habib  
-**Location:** Saudi Arabia  
- 
 ⚠️ **Confidentiality Notice**  
 This repository contains documentation and reference screenshots only.  
 Actual project code, datasets, and proprietary client assets are excluded due to confidentiality agreements.
