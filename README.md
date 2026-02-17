@@ -1,148 +1,167 @@
-# 📊 Mosook – Automated Reporting & Feasibility Insights Platform
+# 📊 Mosook – AI-Driven Automated Reporting & Feasibility Platform
+ 
+## 🏢 Client Project Overview
+**Client:** Mohammad Habib  
+**Location:** Saudi Arabia  
+ 
+⚠️ **Confidentiality Notice**  
+This repository contains documentation and reference screenshots only.  
+Actual project code, datasets, and proprietary client assets are excluded due to confidentiality agreements.
  
 ---
  
-## 📖 Project Description
-
-Mosook is a smart automated reporting solution designed to provide **real-time business insights and feasibility analysis** using Microsoft Power Platform tools.
+## 🌍 Project Summary
  
-The system integrates **Power BI, APIs, SharePoint, Power Apps, and AI** to automatically fetch, store, analyze, and visualize data.  
-
-It eliminates manual reporting effort and helps decision-makers access accurate and up-to-date business insights efficiently.
+Mosook is an **AI-enabled automated reporting platform** built using Microsoft Power Platform technologies.  
+The solution delivers **real-time business insights, company intelligence, and feasibility analysis** through Power BI dashboards integrated with APIs, automation workflows, SharePoint storage, and AI services.
+ 
+The system eliminates manual reporting processes, accelerates decision-making, and ensures access to accurate, up-to-date data.
  
 ---
  
-## 🚀 Milestone 1 – Automated Data Retrieval & Reporting
+## 🎯 Key Objectives
  
-### Functional Description
-
-- Enables users to retrieve **real-time filtered data from external APIs** directly through Power BI dashboards.
-
-- Filters such as:
-
+- Automate business reporting workflows
+- Provide real-time API-driven insights
+- Enable company intelligence retrieval
+- Generate AI-based feasibility analysis
+- Centralize data storage and reporting
+- Reduce manual operational overhead
+ 
+---
+ 
+# 🚀 Milestone 1 — Automated API Reporting
+ 
+## Functional Highlights
+- Real-time filtered API data retrieval directly from Power BI
+- User filters:
   - Country
-
   - HS Code
-
   - WF Code
-
-- Users trigger data retrieval via a Power BI button.
-
-- Old records in SharePoint are automatically removed.
-
-- New structured data is stored and dashboards refresh automatically.
+- Automated removal of old SharePoint records
+- Structured data storage with auto-refresh dashboards
  
----
- 
-## 🧩 Solution Overview
-
-The solution integrates multiple Microsoft technologies:
- 
-- Power BI dashboards connected to SharePoint data
-
-- Power Automate workflows triggered from Power BI
-
+## Technical Implementation
+- Power BI dashboard triggers Power Automate flows
 - REST API integration with pagination handling
-
-- Automated data refresh and structured storage
+- SharePoint used as centralized structured datastore
+- Automatic dashboard refresh via DirectQuery/scheduled refresh
  
-### Workflow:
-
-1. User selects filters in Power BI.
-
-2. Button triggers Power Automate flow.
-
-3. Flow calls external API dynamically.
-
-4. Old SharePoint data is cleared.
-
-5. Fresh data is stored in structured format.
-
-6. Power BI refreshes to show updated insights.
+## Outcome
+✔ Real-time automated reporting  
+✔ Reduced manual data entry  
+✔ Improved reporting accuracy  
  
 ---
  
-## 📊 Key Features
-
-- Automated real-time reporting
-
-- API-driven data integration
-
-- Dynamic filter-based data retrieval
-
-- Automated SharePoint data management
-
-- Self-service analytics dashboards
-
-- Reduced manual reporting effort
+# 🚀 Milestone 2 — Company Intelligence Dashboard
+ 
+## Functional Highlights
+- Detailed company data retrieval via Swagger REST API
+- Filters:
+  - Country Name
+  - Kompass ID
+- Dedicated Power BI company profile page
+- Structured display matching original API schema
+ 
+## Technical Implementation
+- Nested JSON API response handling
+- Power Query data transformation
+- SharePoint JSON storage
+- Automated report refresh workflow
+ 
+## Outcome
+✔ Instant company intelligence access  
+✔ Improved user experience  
+✔ Structured, reliable reporting  
  
 ---
  
-## 🛠️ Technologies Used
+# 🚀 Milestone 3 — AI Feasibility Automation
  
-| Category | Technology |
-
-|----------|-----------|
-
-| Data Visualization | Power BI |
-
-| Workflow Automation | Power Automate |
-
-| Data Storage | SharePoint |
-
-| Integration | REST APIs |
-
-| Automation | Power Platform |
+## Functional Highlights
+- Automated feasibility report generation
+- Dual search capability:
+  - Internal Power BI dataset search
+  - External AI search via ChatGPT API
+- Dynamic prompt generation from slicer inputs
+ 
+## Technical Implementation
+- Power BI + Power Automate + Power Apps integration
+- ChatGPT API connectivity
+- SharePoint prompt/response repository
+- ChatPowerBI natural language query tool
+- Prompt automation workflows
+ 
+## Outcome
+✔ AI-driven feasibility insights  
+✔ Faster business analysis  
+✔ Reduced manual research effort  
+ 
+---
+ 
+## 🛠️ Technology Stack
+ 
+### Core Platforms
+- Power BI
+- Power Automate
+- Power Apps
+- SharePoint
+ 
+### Integration & Data
+- REST APIs / Swagger APIs
+- Power Query (Data Transformation)
+- Postman (API Testing)
+ 
+### AI & Automation
+- ChatGPT API Integration
+- ChatPowerBI Tool
  
 ---
  
 ## 📦 Deliverables
-
-- Automated Power BI dashboard with dynamic filters
-
-- Power Automate workflow triggered from Power BI
-
-- API-based data retrieval with pagination support
-
-- Structured SharePoint data storage
-
-- Real-time or scheduled dashboard refresh
+ 
+- Automated Power BI dashboards
+- API-integrated reporting workflows
+- AI feasibility analysis system
+- Company intelligence reporting module
+- SharePoint centralized data storage
+- Prompt automation framework
+- Real-time analytics environment
  
 ---
  
 ## 💼 Business Impact
-
-- Faster reporting processes
-
-- Improved decision-making with real-time insights
-
-- Reduced manual data handling
-
-- Enhanced operational efficiency
-
-- Scalable automated reporting solution
+ 
+### Operational Benefits
+- Significant reduction in manual reporting effort
+- Faster access to business insights
+- Improved data accuracy
+- Automated feasibility analysis
+ 
+### Strategic Benefits
+- Better decision-making capabilities
+- Scalable reporting infrastructure
+- Enhanced business intelligence maturity
  
 ---
  
-## 🔒 Confidentiality Notice
-
-This repository contains a demonstration version of the project.  
-
-No sensitive client data or proprietary information is included.
+## 👨‍💻 My Contributions
  
----
- 
-## 👨‍💻 Role & Contributions
-
-- Power BI dashboard development
-
+- Power BI dashboard architecture & development
 - Power Automate workflow design
-
-- API integration implementation
-
-- SharePoint data architecture
-
-- Reporting automation & optimization
+- REST API integration implementation
+- SharePoint data architecture design
+- AI feasibility automation setup
+- Data modeling & transformation
+- Client requirement analysis
  
-
+---
  
+## 🔮 Future Enhancements
+ 
+- Predictive analytics integration
+- Advanced AI automation workflows
+- Enhanced UI/UX dashboards
+- Real-time alerting system
+- Expanded AI feasibility models
